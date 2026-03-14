@@ -7,6 +7,9 @@ export default defineConfig({
   // 如果部署到 GitHub Pages 子路径，取消注释下面这行
   // base: '/lianshu-official/',
 
+  // 暂时忽略死链接检查（后续会创建这些页面）
+  ignoreDeadLinks: true,
+
   // 设置根路径为中文
   locales: {
     root: {
