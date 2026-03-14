@@ -1,0 +1,67 @@
+:root {
+  /* ===== 主品牌色 Primary Brand Colors ===== */
+  /* LeetCode 风格：明亮、高饱和度 */
+  --color-primary: #ff6b4a;
+  --color-primary-rgb: 255, 107, 74;
+  --color-primary-light: #ff8c6e;
+  --color-primary-dark: #ff5533;
+
+  /* VitePress 品牌色映射 */
+  --vp-c-brand-1: #ff6b4a;
+  --vp-c-brand-2: #ff5533;
+  --vp-c-brand-3: #ff3d1a;
+
+  /* 自定义颜色变量 */
+  --lianshu-primary: #ff6b4a;
+  --lianshu-secondary: #ff8c6e;
+  --lianshu-accent: #ff5533;
+
+  /* 间距 */
+  --lianshu-spacing-xs: 0.25rem;
+  --lianshu-spacing-sm: 0.5rem;
+  --lianshu-spacing-md: 1rem;
+  --lianshu-spacing-lg: 1.5rem;
+  --lianshu-spacing-xl: 2rem;
+
+  /* 圆角 */
+  --lianshu-radius-sm: 0.25rem;
+  --lianshu-radius-md: 0.5rem;
+  --lianshu-radius-lg: 0.75rem;
+}
+
+/* 暗色主题 */
+.dark {
+  --vp-c-brand-1: #ff8c6e;
+  --vp-c-brand-2: #ff6b4a;
+  --vp-c-brand-3: #ff5533;
+}
+
+/* 自定义样式 */
+.VPHome {
+  /* 首页样式优化 */
+}
+
+.VPFeature {
+  border-radius: var(--lianshu-radius-lg);
+  transition: transform 0.2s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-2px);
+}
+
+/* 代码块样式 */
+.vp-code-group {
+  border-radius: var(--lianshu-radius-md);
+}
+
+/* 链接样式 */
+.vp-doc a {
+  color: var(--lianshu-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.vp-doc a:hover {
+  color: var(--lianshu-secondary);
+}
