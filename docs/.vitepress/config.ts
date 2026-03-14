@@ -4,6 +4,9 @@ export default defineConfig({
   title: '炼书 · Lianshu',
   description: 'AI驱动的笔记助手和编辑器 / AI-Powered Note Assistant & Editor',
 
+  // 如果部署到 GitHub Pages 子路径，取消注释下面这行
+  // base: '/lianshu-official/',
+
   // 设置根路径为中文
   locales: {
     root: {
