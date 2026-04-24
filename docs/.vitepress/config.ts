@@ -23,7 +23,8 @@ export default defineConfig({
           { text: '首页', link: '/' },
           { text: '炼书', link: '/lianshu/' },
           { text: '炼书编辑器', link: '/lianshu-editor/' },
-          { text: '精选', link: '/featured/' }
+          { text: '精选', link: '/featured/' },
+          { text: 'AI 工具', link: '/tools/gpt-image-generator.html' }
         ],
         sidebar: {
           '/lianshu/': [
@@ -76,7 +77,8 @@ export default defineConfig({
           { text: 'Home', link: '/en/' },
           { text: 'Lianshu', link: '/en/lianshu/' },
           { text: 'Lianshu Editor', link: '/en/lianshu-editor/' },
-          { text: 'Featured', link: '/en/featured/' }
+          { text: 'Featured', link: '/en/featured/' },
+          { text: 'AI Tools', link: '/tools/gpt-image-generator.html' }
         ],
         sidebar: {
           '/en/lianshu/': [
